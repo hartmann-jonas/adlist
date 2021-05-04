@@ -14,12 +14,12 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 #
-0.0.0.0 ssl.1.media.tvnowde.ndcaidemh.com/
-0.0.0.0 ssl.2.media.tvnowde.ndcaidemh.com/
-0.0.0.0 ssl.3.media.tvnowde.ndcaidemh.com/
-0.0.0.0 ssl.4.media.tvnowde.ndcaidemh.com/
-0.0.0.0 ssl.5.media.tvnowde.ndcaidemh.com/
-0.0.0.0 ssl.6.media.tvnowde.ndcaidemh.com/
-0.0.0.0 ssl.7.media.tvnowde.ndcaidemh.com/
-0.0.0.0 ssl.8.media.tvnowde.ndcaidemh.com/
-0.0.0.0 ssl.9.media.tvnowde.ndcaidemh.com/
+0.0.0.0 ssl.1.media.tvnowde.ndcaidemh.com
+0.0.0.0 ssl.2.media.tvnowde.ndcaidemh.com
+0.0.0.0 ssl.3.media.tvnowde.ndcaidemh.com
+0.0.0.0 ssl.4.media.tvnowde.ndcaidemh.com
+0.0.0.0 ssl.5.media.tvnowde.ndcaidemh.com
+0.0.0.0 ssl.6.media.tvnowde.ndcaidemh.com
+0.0.0.0 ssl.7.media.tvnowde.ndcaidemh.com
+0.0.0.0 ssl.8.media.tvnowde.ndcaidemh.com
+0.0.0.0 ssl.9.media.tvnowde.ndcaidemh.com
