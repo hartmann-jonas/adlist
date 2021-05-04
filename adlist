@@ -1,0 +1,10 @@
+# This is a AdList for the Pi-hole App for the Ads on TVnow
+0.0.0.0 https://www.ssl.1.media.tvnowde.ndcaidemh.com/
+0.0.0.0 https://www.ssl.2.media.tvnowde.ndcaidemh.com/
+0.0.0.0 https://www.ssl.3.media.tvnowde.ndcaidemh.com/
+0.0.0.0 https://www.ssl.4.media.tvnowde.ndcaidemh.com/
+0.0.0.0 https://www.ssl.5.media.tvnowde.ndcaidemh.com/
+0.0.0.0 https://www.ssl.6.media.tvnowde.ndcaidemh.com/
+0.0.0.0 https://www.ssl.7.media.tvnowde.ndcaidemh.com/
+0.0.0.0 https://www.ssl.8.media.tvnowde.ndcaidemh.com/
+0.0.0.0 https://www.ssl.9.media.tvnowde.ndcaidemh.com/
