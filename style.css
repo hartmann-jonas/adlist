@@ -1,0 +1,179 @@
+* {
+    cursor: default;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+  }
+
+  /*NAV BAR*/
+  nav {
+    position: absolute;
+    width: 100%;
+    z-index: 3;
+  }
+
+  /*Styling vom Balken oben*/
+  .dropdown {
+    position: absolute;
+    width: 100%;
+    height: 7vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgb(0, 0, 0);
+    opacity: 0.95;
+  }
+  
+  .neuimverleih {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .neuimverleih:hover {
+    color: orange;
+  }
+
+  .spracheaendern {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .spracheaendern:hover {
+    color: orange;
+  }
+
+  .projekte, .objekte, .extras {
+    position: relative;
+  }
+
+  /*Styling vom Ausgeklappten Menü*/
+  .projekte ul, .objekte ul, .extras ul {
+    position: absolute;
+    background: black;
+    margin-top: 25px;
+    width: 200px;
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    list-style: none;
+    border-radius: 3px;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.4s ease;
+  }
+
+  /*Entfernen vom Aussehen wie ein Link bei den Buttons*/
+  .projekte a, .objekte a, .extras a {
+    text-decoration: none;
+  }
+
+  /*Styling der Unterpunkte*/
+  .projekte li, .objekte li, .extras li {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /*Hover wird grau im Dropdown*/
+  .projekte li:hover, .objekte li:hover, .extras li:hover {
+    background-color: rgb(24, 24, 24);
+    cursor: pointer;
+  }
+
+  /*Die obersten Knöpfe*/
+  .dropdown button {
+    background: none;
+    border: none;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .dropdown button:hover {
+    color: orange;
+  }
+
+  /*Erscheinen der Bar beim Klicken des Überpunkts*/
+  .projekte button:focus + ul, .objekte button:focus + ul, .extras button:focus + ul {
+    opacity: 1;
+    pointer-events: all;
+    transform: translateY(0);
+  }
+
+  /*Links werden wieder Klickbar bei herüberfahren*/
+  .projekte li:hover, .objekte li:hover, .extras li:hover {
+    pointer-events: all;
+  }
+
+
+  .top-container {
+    height: 100vh;
+  }
+
+  .top-container img {
+    width: 100%;
+    position: absolute;
+    height: 110vh;
+    object-fit: cover;
+    z-index: -1;
+  }
+
+  .main-logo {
+    width: 50%;
+    padding-top: 17%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -30%);
+    z-index: 1;
+  }
+  .main-logo img {
+    width: 100%;
+    height: auto;
+  }
+
+  .subheader {
+    display: flex;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -30%);
+    padding-top: 50px;
+  }
+  
+  .content {
+    left: 50%;
+    transform: translate(-50%, -30%);
+    width: 80%;
+    background: rgb(24, 24, 24);
+    min-height: 100vh;
+    z-index: 2;
+    position: absolute;
+  }
+
+  .content-image {
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 60vh;
+    text-align: center;
+  }
+  
+  .text {
+    padding: 2rem 20rem;
+    font-size: 1.1rem;
+  }
+
+  .footer {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(24, 24, 24);
+  }
